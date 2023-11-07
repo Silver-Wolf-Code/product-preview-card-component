@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Important -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Meta Important -->
+
+  <!-- Meta SEO -->
+  <meta name="description" content="Product preview card component">
+  <meta name="author" content="Silver-Wolf-Coding">
+  <meta name="robots" content="index,follow">
+  <meta name="keywords" content="Product, preview, card, component">
+  <!-- Meta SEO -->
+
+  <!-- link Ico -->
+  <link rel="icon" href="images/favicon-32x32.png">
+  <!-- link Ico -->
+
+  <!-- Typographic google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&family=Montserrat:wght@100;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Typographic google font -->
+
+  <!-- Style CSS Principal -->
+  <link rel="stylesheet" href="css/styles__movil.css">
+  <!-- Style CSS Principal -->
+
+  <!-- Style CSS Responsive -->
+  <link rel="stylesheet" href="css/style-tablet.css" media="screen and (min-width: 770px)">
+  <link rel="stylesheet" href="css/style-laptop.css" media="screen and (min-width: 1000px)">
+  <link rel="stylesheet" href="css/style-desktop.css" media="screen and (min-width: 1200px)">
+  <!-- Style CSS Responsive -->
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+</head>
+
+<body>
+
+  <main class="main">
+    <picture class="main__picture">
+      <source class="main__image" media="(min-width:599px)" srcset="./images/image-product-desktop.jpg">
+      <source class="main__image" media="(min-width:375px)" srcset="./images/image-product-mobile.jpg">
+      <img class="main__image" src="images/image-product-mobile.jpg" alt="photographic of a perfume">
+    </picture>
+    <section class="main__section">
+      <h3 class="main__section__subtitle">Perfume</h3>
+      <h1 class="main__section__title">Gabrielle Essence Eau De Parfum</h1>
+      <p class="main__section__paragraph">
+        A floral, solar and voluptuous interpretation composed by Olivier Polge,
+        Perfumer-Creator for the House of CHANEL.
+      </p>
+      <p class="main__section__price">$149.99 <span class="main__section__price__two">$169.99</span></p>
+      <button class="main__button">
+        <img class="main__button__ico" src="images/icon-cart.svg" alt="ico cart"> Add to Cart
+      </button>
+    </section>
+  </main>
+</body>
+
+</html>
