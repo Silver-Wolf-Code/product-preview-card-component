@@ -37,11 +37,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: auto;
-  height: 100vh !important;
+  height: 100vh;
 }
 
 .main {
-  /* border: 1px solid red; */
   background: var(--White);
   width: 80%;
   overflow: hidden;
@@ -55,7 +54,8 @@ body {
 
 .main__image {
   width: 100%;
-  aspect-ratio: 343/240;
+  aspect-ratio: 385/240;
+  /* height: 200px; */
 }
 
 .main__section {
