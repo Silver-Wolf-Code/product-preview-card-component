@@ -38,6 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 40px auto;
+  height: 100vh;
 }
 
 .main {
